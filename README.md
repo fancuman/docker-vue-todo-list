@@ -2,10 +2,10 @@
 Navigate to the root directory.
 
 ```
-$ cd nginx-serve-todo-list
+$ cd docker-vue-todo-list
 
 ```
-update frontend/dist folder if source code changes
+update frontend/dist folder if source code changes(Wait for a while, make sure the dist folder has been updated)
 
 ```
 $ docker-compose -f docker-compose-generate-web.yaml up -d 
