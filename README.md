@@ -17,3 +17,12 @@ Start the `frontend-web`, `backend` and `db` containers using docker-compose
 $ docker-compose up -d 
 ```
 Access the app from your browser at `http://localhost:80`
+
+
+
+Stop docker by using the following commands
+
+```
+$ docker-compose down --rmi local
+$ docker-compose -f docker-compose-generate-web.yaml down --rmi local
+```
